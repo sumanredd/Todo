@@ -1,0 +1,125 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #d299c2, #fef9d7);
+  font-family: 'Roboto', sans-serif;
+  height: 100vh;
+}
+
+.center-wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+#mainContainer {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 40px 30px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  width: 100%;
+}
+
+.heading {
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  color: #37474f;
+  margin-bottom: 30px;
+}
+
+.startingPara {
+  font-size: 24px;
+  color: #333;
+  margin: 20px 0 10px 0;
+}
+
+.spanCreateStyle,
+.spanMyStyle {
+  color: #4c63b6;
+  font-weight: bold;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+.startingInputStyle {
+  width: 100%;
+  padding: 15px;
+  font-size: 18px;
+  border: 2px solid #cfd8dc;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.startingInputStyle:focus {
+  border-color: #4c63b6;
+  outline: none;
+}
+
+.button {
+  background-color: #4c63b6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #3b4ea0;
+}
+
+.ulMainContainer {
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+.liStyle {
+  list-style-type: none;
+  margin-bottom: 15px;
+}
+
+.checkboxStyle {
+  height: 20px;
+  width: 20px;
+  margin: 20px;
+}
+
+.labelContainerStyle {
+  background-color: #f1f5f8;
+  border-left: 5px solid #4c63b6;
+  padding: 15px;
+  border-radius: 8px;
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.labelStyle {
+  font-size: 20px;
+  color: #37474f;
+}
+
+.delete-icon-container {
+  font-size: 18px;
+  color: #e53935;
+}
+
+.delete-icon:hover {
+  color: #b71c1c;
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: #999;
+}
