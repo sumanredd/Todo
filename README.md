@@ -1,5 +1,4 @@
 📝 Todo Application
-
 A simple and intuitive Todo Application that allows users to manage their daily tasks efficiently. This project was developed as part of the CCBP 4.0 program by NxtWave.
 
 🌐 Live Demo
